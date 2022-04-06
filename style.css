@@ -1,0 +1,137 @@
+html,
+body,
+div,
+h1,
+p,
+img,
+header,
+section {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+html {
+
+  background-color: #121214;;
+
+}
+
+.logo {
+  position: relative;
+  width: 229px;
+  height: 68px;
+  left: 517px;
+  top: 42px;
+}
+
+h1 {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 42px;
+  text-align: center;
+  position: absolute;
+  width: 334px;
+  height: 42px;
+  left: 464px;
+  top: 183px;
+  color: #FFFFFF;
+}
+
+.boxMain {
+  display: flex;
+  justify-content: space-between;
+  max-width: 700px;
+  margin: 0 auto;
+  position: absolute;
+  width: 718px;
+  height: 194px;
+  left: 272px;
+  top: 286px;
+}
+
+.boxItem:hover{
+  -webkit-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  transform: scale(1.3);
+  
+ 
+}
+
+.boxItem {
+  border-radius: 8px;
+  text-align: center;
+  transition-duration: 1s;
+}
+
+#avatar1 {
+  background-image: url(./imagens/avatar1.png);
+  width: 160px;
+  height: 160px;
+
+
+}
+
+#avatar2 {
+  background-image: url(./imagens/avatar2.png);
+  width: 160px;
+  height: 160px;
+
+
+}
+
+#avatar3 {
+  background-image: url(./imagens/avatar3.png);
+  width: 160px;
+  height: 160px;
+
+
+}
+
+#adcPerfil {
+  background-image: url(./imagens/photo.png);
+  width: 160px;
+  height: 160px;
+
+
+}
+
+p {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  color: #9c9c9c;
+  margin-top: 176px;
+  margin-bottom: 0
+}
+
+button {
+  position: absolute;
+  width: 206px;
+  height: 50px;
+  left: 528px;
+  top: 582px;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  border: 1.5px, solid, #FFFFFF;
+  border-radius: 8px;
+  background-color: #121214;
+  color: #FFFFFF;
+  transition-duration: 1s;
+  
+}
+
+button:hover {
+  background-color: #FFFFFF;
+  color: #121214;
+}
